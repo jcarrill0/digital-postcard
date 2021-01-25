@@ -1,0 +1,68 @@
+
+body {
+	min-height: 100vh;
+	background: #000;
+	font-family: 'Handlee', cursive;
+	font-size: 1.1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	font-weight: 600;
+}
+
+.postcard{
+	width: 500px;
+	padding: 1rem;
+	background: white;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: .5rem;
+}
+
+.logo img {
+	max-width: 80px;
+}
+
+.postcard-main {
+	display: flex;
+	width: 100%;
+}
+
+.info {
+	flex-basis: 50%;
+}
+
+.formulario {
+	width: 50%;
+}
+
+.formulario form {
+	display: flex;
+	flex-direction: column;
+}
+
+.formulario input[type="text"] {
+	margin-bottom: 5px;
+	padding: .5rem 0 .2rem 0;
+	border: none;
+	border-bottom: 1px solid #000;
+	font-family: 'Handlee', cursive;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-footer button {
+	font-family: 'Handlee', cursive;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
